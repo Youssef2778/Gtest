@@ -1,0 +1,4 @@
+/home/jo/gtest-demo/build/CMakeFiles/factorize_test.dir
+/home/jo/gtest-demo/build/CMakeFiles/test.dir
+/home/jo/gtest-demo/build/CMakeFiles/edit_cache.dir
+/home/jo/gtest-demo/build/CMakeFiles/rebuild_cache.dir

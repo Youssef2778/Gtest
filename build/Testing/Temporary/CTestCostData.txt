@@ -1,0 +1,10 @@
+FactorizeTest.Assignmenttest 1 0
+FactorizeTest.prime 1 0
+FactorizeTest.one 2 0.0018794
+FactorizeTest.singlefactor 2 0.00164408
+FactorizeTest.Largenumber 1 0
+FactorizeTest.Test 2 0.0013183
+---
+FactorizeTest.Assignmenttest
+FactorizeTest.prime
+FactorizeTest.Largenumber

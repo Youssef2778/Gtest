@@ -1,0 +1,111 @@
+Start testing: Apr 28 16:04 EEST
+----------------------------------------------------------
+1/6 Testing: FactorizeTest.Assignmenttest
+1/6 Test: FactorizeTest.Assignmenttest
+Command: "/home/jo/gtest-demo/build/factorize_test" "--gtest_filter=FactorizeTest.Assignmenttest" "--gtest_also_run_disabled_tests"
+Directory: /home/jo/gtest-demo/build
+"FactorizeTest.Assignmenttest" start time: Apr 28 16:04 EEST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = FactorizeTest.Assignmenttest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FactorizeTest
+[ RUN      ] FactorizeTest.Assignmenttest
+/home/jo/gtest-demo/test_prime.cpp:26: Failure
+Expected equality of these values:
+  factorize(60)
+    Which is: "2 2 3"
+  "2 2 3 5"
+
+[  FAILED  ] FactorizeTest.Assignmenttest (0 ms)
+[----------] 1 test from FactorizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] FactorizeTest.Assignmenttest
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"FactorizeTest.Assignmenttest" end time: Apr 28 16:04 EEST
+"FactorizeTest.Assignmenttest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: FactorizeTest.prime
+2/6 Test: FactorizeTest.prime
+Command: "/home/jo/gtest-demo/build/factorize_test" "--gtest_filter=FactorizeTest.prime" "--gtest_also_run_disabled_tests"
+Directory: /home/jo/gtest-demo/build
+"FactorizeTest.prime" start time: Apr 28 16:04 EEST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = FactorizeTest.prime
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FactorizeTest
+[ RUN      ] FactorizeTest.prime
+/home/jo/gtest-demo/test_prime.cpp:30: Failure
+Expected equality of these values:
+  factorize(11)
+    Which is: ""
+  "11"
+
+[  FAILED  ] FactorizeTest.prime (0 ms)
+[----------] 1 test from FactorizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] FactorizeTest.prime
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"FactorizeTest.prime" end time: Apr 28 16:04 EEST
+"FactorizeTest.prime" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: FactorizeTest.Largenumber
+5/6 Test: FactorizeTest.Largenumber
+Command: "/home/jo/gtest-demo/build/factorize_test" "--gtest_filter=FactorizeTest.Largenumber" "--gtest_also_run_disabled_tests"
+Directory: /home/jo/gtest-demo/build
+"FactorizeTest.Largenumber" start time: Apr 28 16:04 EEST
+Output:
+----------------------------------------------------------
+Note: Google Test filter = FactorizeTest.Largenumber
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FactorizeTest
+[ RUN      ] FactorizeTest.Largenumber
+/home/jo/gtest-demo/test_prime.cpp:42: Failure
+Expected equality of these values:
+  factorize(210)
+    Which is: "2 3 5"
+  "2 3 5 7"
+
+[  FAILED  ] FactorizeTest.Largenumber (0 ms)
+[----------] 1 test from FactorizeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] FactorizeTest.Largenumber
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"FactorizeTest.Largenumber" end time: Apr 28 16:04 EEST
+"FactorizeTest.Largenumber" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 28 16:04 EEST

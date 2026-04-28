@@ -1,0 +1,42 @@
+{
+  "tests": 6,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "FactorizeTest",
+      "tests": 6,
+      "testsuite": [
+        {
+          "name": "Assignmenttest",
+          "file": "\/home\/jo\/gtest-demo\/test_prime.cpp",
+          "line": 29
+        },
+        {
+          "name": "prime",
+          "file": "\/home\/jo\/gtest-demo\/test_prime.cpp",
+          "line": 33
+        },
+        {
+          "name": "one",
+          "file": "\/home\/jo\/gtest-demo\/test_prime.cpp",
+          "line": 37
+        },
+        {
+          "name": "singlefactor",
+          "file": "\/home\/jo\/gtest-demo\/test_prime.cpp",
+          "line": 41
+        },
+        {
+          "name": "Largenumber",
+          "file": "\/home\/jo\/gtest-demo\/test_prime.cpp",
+          "line": 45
+        },
+        {
+          "name": "Test",
+          "file": "\/home\/jo\/gtest-demo\/test_prime.cpp",
+          "line": 49
+        }
+      ]
+    }
+  ]
+}
